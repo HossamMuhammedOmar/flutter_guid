@@ -1,4 +1,4 @@
-# flutter_guid
+# Flutter Guid
 
 A new Flutter project.
 
