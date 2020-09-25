@@ -6,7 +6,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Text('Hello!'),
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('My First App Using Flutter'),
+        ),
+        body: Text('Welcome to my app:) '),
+      ),
     );
   }
 }
